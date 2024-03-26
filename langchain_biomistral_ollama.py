@@ -14,7 +14,7 @@ async def on_chat_start():
     elements = [
     cl.Image(name="image1", display="inline", path="dr-martin.tiff")
     ]
-    await cl.Message(content="Hi, I am Dr. Martin AI created by Ben Litvin. How can I help you?", elements=elements).send()
+    await cl.Message(content="Hi, I am Dr. Martin AI created by Nick Gupta. How can I help you?", elements=elements).send()
     model = Ollama(model="biomistral")
     prompt = ChatPromptTemplate.from_messages(
         [
